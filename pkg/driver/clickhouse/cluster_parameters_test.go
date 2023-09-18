@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/amacneil/dbmate/v2/pkg/dbutil"
+	"github.com/kaichaosun/dbmate/pkg/dbutil"
 )
 
 func TestOnCluster(t *testing.T) {

@@ -10,10 +10,10 @@ import (
 	"github.com/joho/godotenv"
 	"github.com/urfave/cli/v2"
 
-	"github.com/amacneil/dbmate/v2/pkg/dbmate"
-	_ "github.com/amacneil/dbmate/v2/pkg/driver/clickhouse"
-	_ "github.com/amacneil/dbmate/v2/pkg/driver/mysql"
-	_ "github.com/amacneil/dbmate/v2/pkg/driver/postgres"
+	"github.com/kaichaosun/dbmate/pkg/dbmate"
+	_ "github.com/kaichaosun/dbmate/pkg/driver/clickhouse"
+	_ "github.com/kaichaosun/dbmate/pkg/driver/mysql"
+	_ "github.com/kaichaosun/dbmate/pkg/driver/postgres"
 )
 
 func main() {

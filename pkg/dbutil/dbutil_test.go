@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"testing"
 
-	"github.com/amacneil/dbmate/v2/pkg/dbutil"
+	"github.com/kaichaosun/dbmate/pkg/dbutil"
 
 	"github.com/stretchr/testify/require"
 	_ "modernc.org/sqlite" // database/sql driver

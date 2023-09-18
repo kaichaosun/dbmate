@@ -1,4 +1,4 @@
-module github.com/amacneil/dbmate/v2
+module github.com/kaichaosun/dbmate
 
 go 1.20
 

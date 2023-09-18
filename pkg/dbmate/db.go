@@ -13,7 +13,7 @@ import (
 	"sort"
 	"time"
 
-	"github.com/amacneil/dbmate/v2/pkg/dbutil"
+	"github.com/kaichaosun/dbmate/pkg/dbutil"
 )
 
 // Error codes
