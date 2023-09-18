@@ -6,8 +6,8 @@ import (
 
 	"github.com/amacneil/dbmate/v2/pkg/dbutil"
 
-	_ "github.com/mattn/go-sqlite3" // database/sql driver
 	"github.com/stretchr/testify/require"
+	_ "modernc.org/sqlite" // database/sql driver
 )
 
 func TestDatabaseName(t *testing.T) {

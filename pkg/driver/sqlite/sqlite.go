@@ -17,7 +17,7 @@ import (
 	"github.com/amacneil/dbmate/v2/pkg/dbutil"
 
 	"github.com/lib/pq"
-	_ "github.com/mattn/go-sqlite3" // database/sql driver
+	_ "modernc.org/sqlite" // database/sql driver
 )
 
 func init() {
