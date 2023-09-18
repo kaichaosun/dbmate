@@ -72,7 +72,7 @@ func ConnectionString(u *url.URL) string {
 
 // Open creates a new database connection
 func (drv *Driver) Open() (*sql.DB, error) {
-	return sql.Open("sqlite3", ConnectionString(drv.databaseURL))
+	return sql.Open("sqlite", ConnectionString(drv.databaseURL))
 }
 
 // CreateDatabase creates the specified database
